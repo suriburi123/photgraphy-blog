@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <center>
+        <ul class="menu">
+            <li class="links"><a href="#home">Home</a> </li>
+            <li class="links"><a href="#gridview">Grid Vew</a></li>
+            <li class="links"><a href="#slideview">Slide view</a></li>
+        </ul>
+        </center>
+
+        <section id="home">
+            <h1>Home</h1>
+            <div class="line"></div>
+            <img src="https://media.wired.com/photos/594469b97ac0431b55e60bc8/master/pass/1-NAMOng7NaHbNDTAdGvWzXg.jpeg">
+        </section>
+        <center>
+        <section id="gridview">
+        <h2>Grid gallery</h2> 
+            <br>
+            <script src=""></script>
+                <div class="row">
+            <span id="sp"></span>
+            <img class="img2" src="daisy.jpg">
+            <img class="img2" src="alovera.jpg">
+            <img class="img2" src="rose.jpg">
+                <br><br></div></section>
+        </center>
+        
+<section id="slideview">
+    <h1>Slide Gallery</h1>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <a href="#" target="_blank">
+                             <img src="pink%20tuliop.jpg" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>Pink Tulip</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a href="#" target="_blank">
+                            <img src="venusflytrap.jpg" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>Venus Flytrap</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item"><center>
+                        <a href="#" target="_blank">
+                            <img src="bogan.jpg" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>Boganvillae</p>
+                        </div>
+                    </center></div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+    </section>
+    </div>
+</body>
+</html>
